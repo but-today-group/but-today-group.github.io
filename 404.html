@@ -29,7 +29,7 @@
 
 <html
   class="not-ready lg:text-base"
-  style="--bg: #f8f5d7"
+  style="--bg: #fff"
   lang="ko-kr"
 >
   <head>
@@ -145,7 +145,7 @@
 
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
-    const lightBg = '#f8f5d7'.replace(/"/g, '');
+    const lightBg = '#fff'.replace(/"/g, '');
     const setDark = (isDark) => {
       metaTheme.setAttribute('content', isDark ? '#000' : lightBg);
       htmlClass[isDark ? 'add' : 'remove']('dark');
