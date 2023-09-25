@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://but-today-group.github.io/sitemap.xml
